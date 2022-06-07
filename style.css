@@ -1,0 +1,58 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Tangerine:wght@700&display=swap');
+html, body{
+    padding:0;
+    margin:0;
+    font-family: 'Tangerine', cursive;
+    font-size: 25px;
+}
+
+body{    
+    background-image: url("https://cdn.vox-cdn.com/thumbor/9vGPPNts0wpiXyxT0-YImELuKP4=/0x0:1000x669/1200x800/filters:focal(420x255:580x415)/cdn.vox-cdn.com/uploads/chorus_image/image/63866910/Arcade_City.0.jpg");
+    background-repeat:no-repeat;
+}
+.flex-container{
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;   
+    
+}
+
+.buttons{
+    display:flex;
+    justify-content: center;
+    gap:14px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    
+}
+
+.board{
+    width: 500px;
+    height: 500px;
+    display:grid;
+    border-style: solid;
+}
+
+
+#set-size{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+button{
+    width: 100px;
+    background-color: #fff;
+    border-radius: 4%;
+    border: 1px solid #4ac0ee;
+    text-transform: uppercase;
+    text-align:center;
+    transition: .5s
+    
+}
+button:hover{
+    background-color: #4ac0ee;
+}
